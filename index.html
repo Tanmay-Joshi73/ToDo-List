@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="List.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header id="Header_Page"> </header>
+    <div class="quote">
+     <h2>Quote Of The Day : <span id="Qoute_Message"> </span> </h2>    
+    </div>
+
+    <div class="Input">
+        <!-- <input type="text" id="Input_Text" placeholder="Enter The Task">
+        <button id="Add_btn" onclick="Add()">Add</button> -->
+    </div>
+    
+
+    <div class="Main_List_Bar">
+            <div class="Task_bar">
+                <input type="text" id="Input_Text" placeholder="Enter The Task">
+                <button id="Add_btn" onclick="Add()">Add</button>
+
+                <div class="container">
+                 <input type="checkbox" id="First_Check_Box" onclick="Remove()"> <span id="First_Task"></span>
+                </div>
+
+                <div class="container">
+                    <input type="checkbox" id="Second_Check_Box" onclick="Remove()"> <span id="Second_Task"></span>
+                </div>
+
+                <div class="container">
+                    <input type="checkbox" id="Third_Check_Box" onclick="Remove()"> <span id="Third_Task"></span>
+                </div>
+
+                <div class="container">
+                    <input type="checkbox" id="Forth_Check_Box" onclick="Remove()"> <span id="Forth_Task"></span>
+                </div>
+
+                <div class="container">
+                    <input type="checkbox" id="Fifth_Check_Box" onclick="Remove()"> <span id="Fifth_Task"></span>
+                </div>
+                <!-- <audio src="./Click.wav"></audio> -->
+
+
+
+
+
+            </div>
+                <div class="Info">
+                    <h1><span class="TODO">To-Do</span> <span class="List">LIST</span></h1>
+                    <h2>A Simple Design Using <span>HTML</span>,<span>CSS</span>,<span>JS</span></h2>
+                </div>
+
+    </div>
+
+<script src="List.js"></script>
+<script src="Quotes.js"></script>
+</body>
+</html>
